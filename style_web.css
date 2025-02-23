@@ -1,0 +1,235 @@
+:root{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*fuente propocionada, no instalada*/
+@font-face {
+    font-family:"Bad" ;
+    src:local("breaking bad"),
+    url("breaking_b/Breaking\ Bad.ttf") fromat(ttf); 
+}
+ /*fondo de la Página Web y el Formulario*/
+body.fondo1{ 
+    background-image:url(img/Principal_img/fondo.jpg); 
+    background-repeat: no-repeat; 
+    background-size:cover; }
+
+/*fondo de la tabla*/
+body.fondo2{   
+    background-color: #637124;  
+    font-family: Arial, Helvetica, sans-serif;  }
+
+/*PÁGINA WEB*/
+#logoWeb{ 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 200px; 
+    height: 200px;  }
+
+#textoWeb{ 
+    color: white; 
+    font-size: 25px;; 
+    font-weight: bold; 
+    text-align: center; }
+
+#poster{ 
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 700px; 
+    height: 300px; 
+    border: brown 10px outset; 
+    border-radius: 22px;
+    }
+
+
+/*FORMULARIO*/
+#formulario { font-family: Arial, Helvetica, sans-serif; 
+    display: flex; 
+    flex-direction: row; /*https://developer.mozilla.org/es/docs/Web/CSS/flex-direction*/
+    padding:20px;}
+
+#divform {
+    position:relative; left: 1020px; top:70px; /*https://lenguajecss.com/css/posicionamiento/position-relative/*/
+    font-weight: bold; 
+    font-size: 40px;  }
+
+.campototal { 
+    display: block;
+    background-color: #637124cc; 
+    border-radius: 5px; }
+
+.campomedio { 
+    display: block;
+    background-color: #b6db21cd !important;
+    padding: 20px; 
+    margin: 15px; 
+    border-radius: 5px; }
+
+.campoinput { display: inline-block; }
+
+input { 
+    color: red; 
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5px; 
+    margin-top: 20px; 
+    margin-right: 15px;}
+
+legend {font-weight: bold; color: whitesmoke; }
+
+input[id=nombre]{ width: 10rem;}
+
+input[id=apellidos] { width: 12rem; }
+
+input[type=radio]{ width: 1rem; height: 1rem; }
+
+label[for=nacimiento] { margin-left: 2.5rem; }
+
+input[id=direccion]{ width: 15rem; }
+
+input[id=numero], input[id=piso] { width: 2rem; }
+
+input[id=puerta], input[id=cp] { width: 5rem; }
+
+input[id=ciudad], input[id=email] { width: 15rem; }
+
+select{
+    width: 8rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+input[id=otros_personajes]{ width: 10rem; }
+
+textarea {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 3rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+label[for=archivos]{ padding-left: 1.5rem; }
+
+input[class=enviar] { margin-left: 5rem; }
+
+input[class=borrar]{ margin-left: 5rem; }
+
+#video{
+    width: 900px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+
+/*TABLA BREAKING BAD*/
+#tabla1{
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 72px;
+    font-weight: bold; 
+    text-align: center;
+}
+
+table.tablas2y3 {
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-spacing:8px;
+    background-color: #2b2c24;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;      
+}
+
+/*TAMAÑOS CELDAS TABLA 1*/
+.tamaño1 {
+    width: 1rem;
+    height: 1rem;
+}
+
+.tamaño2 {
+    width: 2rem;
+    height: 1rem;
+}
+
+.tamaño4 {
+    width: 4rem;
+    height: 1rem;
+}
+
+.tamaño5 {
+    width: 5rem;
+    height: 1rem;
+}
+
+sub { font-size: 14px;}
+
+/*TAMAÑOS CELDAS TABLA 2 Y 3*/
+
+table div {
+    display: grid;
+   
+    width: 5.7rem;
+    height: 4.7rem;
+}
+
+/*POSICIONAMIENTO tabla2*/
+
+.subir{ padding-bottom: 4rem; }
+
+.derecha{ margin-left: 1rem; }
+.abajo {margin-top: 1rem;}
+
+/*POSICIONAMIENTO tabla3*/
+.derecha2{ margin-left: 0.3rem; }
+.derecha3{ margin-left: 0.6rem; }
+.derecha4{ margin-left: 0.7rem; }
+
+/*IMAGEN tabla2 Ha*/
+
+/*CELDAS DE LA TABLA1*/
+.celda1{ background-color: #b7db21;  }
+.celda2{  color: whitesmoke; }
+#celda3{ 
+    color: whitesmoke; 
+    font-family: initial; 
+    font-size: 72px; 
+    text-align: left;
+}
+#celda4{ 
+    color: whitesmoke; 
+    text-align: left;
+}
+#celda5{  
+    color: #cf1d09; 
+    font-size: 20px; 
+    text-align: left;
+}
+
+
+/*COLORES DE LAS TABLAS*/
+td.color1{ background-color: #b7db21;  }
+td.color2{ background-color: #818c52; }
+td.color3{ background-color: #c5e445; }
+td.color4{ background-color: #bcc3a1; }
+td.color5{ background-color: #eff6ca; }
+td.color6{ background-color: #89a419; }
+td.color7{ background-color: #637122; }
+td.color8{ background-color: #d5ea73; }
+td.colorMa{ background-color: #ab8fcc; }
+tr.color9{ background-color: #c4c236; }
+
+
+
+
+
+
+
+
