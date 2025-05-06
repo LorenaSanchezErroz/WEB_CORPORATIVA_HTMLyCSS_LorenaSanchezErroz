@@ -8,7 +8,7 @@
 @font-face {
     font-family:"Bad" ;
     src:local("breaking bad"),
-    url("breaking_b/Breaking\ Bad.ttf") fromat(ttf); 
+    url("breaking_b/Breaking\ Bad.ttf") format(ttf); 
 }
  /*fondo de la Página Web y el Formulario*/
 body.fondo1{ 
